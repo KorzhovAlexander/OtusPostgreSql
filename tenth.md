@@ -63,7 +63,7 @@ Tables:
     "public.test"
 ```
 ```sql
-create subscription test2_sub connection 'host=84.201.156.14 port=5432 user=postgres password=pass123 dbname=testdb2' PUBLICATION test2_pub WITH (copy_data = true);
+create subscription test2_sub connection 'host=YY.YYY.YYY.YY port=5432 user=postgres password=pass123 dbname=testdb2' PUBLICATION test2_pub WITH (copy_data = true);
 ```
 ```
 WARNING:  publication "test2_pub" does not exist on the publisher
